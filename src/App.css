@@ -15,44 +15,25 @@
   z-index: 5;
 }
 
-.logo {
+.logo-container {
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-weight: 700;
-  color: #0f4c81;
 }
 
-.logo-text span {
-  color: #6b7c91;
-  font-weight: 500;
-}
-
-.logo-mark {
-  display: flex;
-  gap: 4px;
-}
-
-.logo-leaf {
-  width: 16px;
-  height: 26px;
-  border-radius: 12px 12px 2px 2px;
-  background: #0f4c81;
-  transform: rotate(-8deg);
+.logo-img {
+  height: 60px;
+  width: auto;
   transition: transform 0.3s ease;
 }
 
-.logo-leaf.accent {
-  background: #27a3a3;
-  transform: rotate(8deg);
+.logo-img:hover {
+  transform: scale(1.05);
 }
 
-.logo:hover .logo-leaf {
-  transform: rotate(-15deg) scale(1.1);
-}
-
-.logo:hover .logo-leaf.accent {
-  transform: rotate(15deg) scale(1.1);
+.footer-logo-img {
+  height: 50px;
+  width: auto;
+  margin-bottom: 16px;
 }
 
 .nav-links {
@@ -543,7 +524,7 @@ section.visible {
 }
 
 .footer-logo {
-  margin-bottom: 12px;
+  display: none;
 }
 
 .footer-links,
