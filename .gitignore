@@ -1,0 +1,20 @@
+# Ignore TIFF and data output directories
+/node_modules/
+
+# Optional: ignore cache and log files
+__pycache__/
+*.log
+*.tmp
+*.bak
+
+# Ignore Scrapy’s temporary data
+.scrapy/
+
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
