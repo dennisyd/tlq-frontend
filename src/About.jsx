@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
 import martineDennis from "./assets/martine-dennis.jpg";
-import logo from "./assets/logo-transparent.png";
+import logo from "./assets/logo-transparent.jpg";
 
 export default function About() {
   const [visible, setVisible] = useState(false);

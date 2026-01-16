@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState, useRef } from "react";
 import "./App.css";
-import logo from "./assets/logo-transparent.png";
+import logo from "./assets/logo-transparent.jpg";
 import martineDennis from "./assets/martine-dennis.jpg";
 import dylanDennis from "./assets/dylan-dennis.jpg";
 import yancyDennis from "./assets/yancy-dennis.jpg";

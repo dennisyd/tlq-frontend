@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./OurApproach.css";
-import logo from "./assets/logo-transparent.png";
+import logo from "./assets/logo-transparent.jpg";
 
 export default function OurApproach() {
   const [visible, setVisible] = useState(false);
