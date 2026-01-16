@@ -132,17 +132,17 @@ section.visible {
   margin: 0 0 16px;
 }
 
-.hero-tagline {
-  color: #d4af37;
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin-bottom: 16px;
-}
-
 .hero-subtitle {
   color: rgba(255, 255, 255, 0.85);
   font-size: 1.1rem;
   max-width: 520px;
+}
+
+.hero-subtitle.hero-tagline {
+  color: #d4af37 !important;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
 
 .hero-actions {
