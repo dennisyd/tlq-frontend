@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 8%;
+  padding: 12px 8%;
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(18, 38, 63, 0.08);
   position: sticky;
@@ -21,7 +21,7 @@
 }
 
 .logo-img {
-  height: 60px;
+  height: 140px;
   width: auto;
   transition: transform 0.3s ease;
 }
@@ -31,7 +31,7 @@
 }
 
 .footer-logo-img {
-  height: 50px;
+  height: 150px;
   width: auto;
   margin-bottom: 16px;
 }
@@ -129,7 +129,14 @@ section.visible {
 
 .hero-content h1 {
   font-size: clamp(2.5rem, 3.4vw, 4rem);
-  margin: 12px 0 16px;
+  margin: 0 0 16px;
+}
+
+.hero-tagline {
+  color: #f7b529;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
 
 .hero-subtitle {

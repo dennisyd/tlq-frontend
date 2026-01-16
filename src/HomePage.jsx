@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState, useRef } from "react";
 import "./App.css";
 import logo from "./assets/logo.png";
+import martineDennis from "./assets/martine-dennis.jpg";
 
 const fallbackSubjects = [
   {
@@ -25,27 +26,24 @@ const fallbackSubjects = [
 
 const fallbackTutors = [
   {
-    id: "maria-holt",
-    name: "Maria Holt",
-    specialty: "Mathematics",
-    credentials: "M.S. Applied Mathematics, 8 years experience",
-    rating: 4.9,
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&q=80"
+    id: "martine-dennis",
+    name: "Martine Dennis",
+    specialty: "Mathematics and Test Prep",
+    credentials: "M.S. Applied Mathematics, 20 years experience",
+    avatar: martineDennis
   },
   {
-    id: "david-park",
-    name: "David Park",
-    specialty: "Reading & Writing",
-    credentials: "M.Ed. Literacy, former curriculum specialist",
-    rating: 4.8,
+    id: "yancy-dennis",
+    name: "Dr. Yancy Dennis",
+    specialty: "STEM and Test Prep",
+    credentials: "Ph.D. Chemical Engineering and Artificial Intelligence Professor, 20 years experience",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&q=80"
   },
   {
-    id: "alina-singh",
-    name: "Alina Singh",
-    specialty: "Science & Test Prep",
-    credentials: "Ph.D. Chemistry, 10 years tutoring",
-    rating: 5.0,
+    id: "dylan-pierce",
+    name: "Dylan Pierce",
+    specialty: "Special Education & Chess",
+    credentials: "B.S. Business, 5 years tutoring experience",
     avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&q=80"
   }
 ];
@@ -77,7 +75,7 @@ const fallbackTestimonials = [
 const heroStats = [
   {
     label: "Years of experience",
-    value: "12+",
+    value: "20+",
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path
@@ -93,7 +91,7 @@ const heroStats = [
   },
   {
     label: "Students supported",
-    value: "4,500+",
+    value: "500+",
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path
@@ -274,6 +272,7 @@ export default function HomePage() {
         <nav className="nav-links">
           <a href="/">Home</a>
           <a href="/about">About Us</a>
+          <a href="/our-approach">Our Approach</a>
           <a href="/#tutors">Our Tutors</a>
           <a href="/#subjects">Subjects</a>
           <a href="/#testimonials">Testimonials</a>
@@ -295,16 +294,16 @@ export default function HomePage() {
           }}
         >
           <div className="hero-content">
-            <p className="eyebrow">Expert Tutoring</p>
             <h1>
-              To Help You
+              Empowering Youth to Reach
               <br />
-              Succeed
+              Their Highest Potential
             </h1>
+            <p className="hero-subtitle hero-tagline">
+              Building Minds, Shaping Futures.
+            </p>
             <p className="hero-subtitle">
-              Personalized learning, proven results. Our certified tutors create
-              custom plans that help students build confidence and achieve
-              academic goals.
+              At The Learning Quarters, we provide expert tutoring and test preparation for students from elementary school through college and graduate studies. Our instruction is led by certified educators, college professors, and tutors with advanced degrees (Master's & PhDs) who tailor learning plans to each student's needs.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#consultation">
@@ -430,7 +429,6 @@ export default function HomePage() {
                   <h3>{tutor.name}</h3>
                   <p className="tutor-specialty">{tutor.specialty}</p>
                   <p className="tutor-credentials">{tutor.credentials}</p>
-                  <p className="tutor-rating">Rating {tutor.rating}</p>
                 </div>
               </div>
             ))}
@@ -479,11 +477,11 @@ export default function HomePage() {
               <p className="eyebrow">Schedule a Free Consultation</p>
               <h2>Get a personalized learning plan</h2>
               <p>
-                Share a few details about the student, and we will match you
-                with the right tutor. Response within 24 hours.
+                Share a few details about the student, and we will respond within 24 hours.
               </p>
               <ul className="consultation-list">
                 <li>1:1 tutoring online or in-person</li>
+                <li>Semi-Private & Group Test Prep</li>
                 <li>Progress updates after every session</li>
                 <li>Flexible scheduling options</li>
               </ul>
@@ -588,7 +586,7 @@ export default function HomePage() {
           <a href="#consultation">Consultation</a>
         </div>
         <div className="footer-contact">
-          <p>hello@thelearningquarters.com</p>
+          <p>martine@thelearningquarters.com</p>
           <p>(555) 281-4477</p>
           <p>Mon - Sat: 8am - 8pm</p>
         </div>

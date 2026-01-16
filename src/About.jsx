@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./About.css";
 import martineDennis from "./assets/martine-dennis.jpg";
+import logo from "./assets/logo.png";
 
 export default function About() {
   const [visible, setVisible] = useState(false);
@@ -11,6 +13,25 @@ export default function About() {
 
   return (
     <div className={`about-page ${visible ? "visible" : ""}`}>
+      <header className="top-nav">
+        <div className="logo-container">
+          <Link to="/">
+            <img src={logo} alt="TLQ Learning Quarters" className="logo-img" />
+          </Link>
+        </div>
+        <nav className="nav-links">
+          <Link to="/">Home</Link>
+          <Link to="/about">About Us</Link>
+          <Link to="/our-approach">Our Approach</Link>
+          <a href="/#tutors">Our Tutors</a>
+          <a href="/#subjects">Subjects</a>
+          <a href="/#testimonials">Testimonials</a>
+        </nav>
+        <a className="button button-primary" href="/#consultation">
+          Get Started
+        </a>
+      </header>
+
       <section className="about-hero">
         <div className="about-hero-content">
           <h1>
@@ -25,13 +46,6 @@ export default function About() {
       <section className="about-mission">
         <div className="mission-content">
           <h2>About The Learning Quarters</h2>
-          <p>
-            At The Learning Quarters, we provide expert tutoring and test
-            preparation for students from elementary school through college and
-            graduate studies. Our instruction is led by certified educators,
-            college professors, and tutors with advanced degrees (Master's &
-            PhDs) who tailor learning plans to each student's needs.
-          </p>
           <p>
             We believe every student has the potential to excel academically,
             financially, and personally. Our mission is to empower youth to
@@ -117,10 +131,6 @@ export default function About() {
           </p>
           <div className="exam-list">
             <div className="exam-card">
-              <strong>MCAT</strong>
-              <span>Medical School</span>
-            </div>
-            <div className="exam-card">
               <strong>GMAT</strong>
               <span>Business School</span>
             </div>
@@ -129,59 +139,8 @@ export default function About() {
               <span>Graduate & Business School</span>
             </div>
             <div className="exam-card">
-              <strong>LSAT</strong>
-              <span>Law School</span>
-            </div>
-            <div className="exam-card">
               <strong>Praxis</strong>
               <span>Teacher Certification</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="our-approach">
-        <h2>Our Approach: Why It Works</h2>
-        <p>
-          We don't believe in one-size-fits-all tutoring. Each student is
-          paired with an elite educator, often holding advanced degrees and
-          extensive experience, who adapts to their learning style and develops
-          a customized plan.
-        </p>
-        <p>
-          This one-on-one approach strengthens skills, builds confidence, and
-          fosters resilience, equipping students for academic success and
-          lifelong growth.
-        </p>
-
-        <div className="why-it-works">
-          <h3>Why The Learning Quarters Works</h3>
-          <div className="benefits-grid">
-            <div className="benefit-card">
-              <div className="benefit-icon">📋</div>
-              <h4>Personalized Plans</h4>
-              <p>Tailored strategies for each student's strengths and goals</p>
-            </div>
-            <div className="benefit-card">
-              <div className="benefit-icon">🎓</div>
-              <h4>Expert Educators</h4>
-              <p>
-                Certified teachers, college professors, and advanced-degree
-                instructors
-              </p>
-            </div>
-            <div className="benefit-card">
-              <div className="benefit-icon">📈</div>
-              <h4>Proven Results</h4>
-              <p>Measurable academic improvement and skill mastery</p>
-            </div>
-            <div className="benefit-card">
-              <div className="benefit-icon">💡</div>
-              <h4>Life-Ready Skills</h4>
-              <p>
-                Financial literacy, stock market investing, and practical
-                decision-making
-              </p>
             </div>
           </div>
         </div>
@@ -205,7 +164,32 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      <footer className="footer">
+        <div>
+          <img src={logo} alt="TLQ Learning Quarters" className="footer-logo-img" />
+          <p>
+            Empowering students with personalized tutoring, trusted guidance,
+            and measurable results.
+          </p>
+        </div>
+        <div className="footer-links">
+          <Link to="/about">About</Link>
+          <Link to="/our-approach">Our Approach</Link>
+          <a href="/#tutors">Tutors</a>
+          <a href="/#subjects">Subjects</a>
+          <a href="/#consultation">Consultation</a>
+        </div>
+        <div className="footer-contact">
+          <p>martine@thelearningquarters.com</p>
+          <p>(555) 281-4477</p>
+          <p>Mon - Sat: 8am - 8pm</p>
+        </div>
+      </footer>
+
+      <div className="copyright">
+        © {new Date().getFullYear()} The Learning Quarters. All rights reserved.
+      </div>
     </div>
   );
 }
-
