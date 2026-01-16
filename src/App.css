@@ -230,7 +230,7 @@ section.visible {
   text-transform: uppercase;
   font-size: 0.85rem;
   letter-spacing: 0.18em;
-  color: #8fd0ff;
+  color: #4169E1;
   margin: 0;
 }
 
@@ -307,6 +307,7 @@ section.visible {
 .section-heading h2 {
   margin: 12px 0 16px;
   font-size: clamp(2rem, 3vw, 2.6rem);
+  color: #4169E1;
 }
 
 .section-subtitle {
