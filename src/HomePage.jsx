@@ -93,7 +93,7 @@ const heroStats = [
   },
   {
     label: "Students supported",
-    value: "500+",
+    value: "1000+",
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path
