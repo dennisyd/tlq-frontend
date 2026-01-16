@@ -30,7 +30,6 @@ export default function OurApproach() {
           Get Started
         </a>
       </header>
-      <div className="site-title">THE LEARNING QUARTERS</div>
 
       <section className="approach-hero">
         <div className="approach-hero-content">

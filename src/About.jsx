@@ -31,7 +31,6 @@ export default function About() {
           Get Started
         </a>
       </header>
-      <div className="site-title">THE LEARNING QUARTERS</div>
 
       <section className="about-hero">
         <div className="about-hero-content">

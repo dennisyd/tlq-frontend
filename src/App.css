@@ -15,24 +15,13 @@
   z-index: 5;
 }
 
-.site-title {
-  background: #ffffff;
-  text-align: center;
-  padding: 16px 0;
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #1e5a8e;
-  letter-spacing: 0.1em;
-  box-shadow: 0 4px 12px rgba(18, 38, 63, 0.06);
-}
-
 .logo-container {
   display: flex;
   align-items: center;
 }
 
 .logo-img {
-  height: 201px;
+  height: 251px;
   width: auto;
   transition: transform 0.3s ease;
 }
@@ -42,7 +31,7 @@
 }
 
 .footer-logo-img {
-  height: 216px;
+  height: 270px;
   width: auto;
   margin-bottom: 16px;
 }

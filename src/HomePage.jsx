@@ -283,7 +283,6 @@ export default function HomePage() {
           Get Started
         </a>
       </header>
-      <div className="site-title">THE LEARNING QUARTERS</div>
 
       <main>
         <section 
