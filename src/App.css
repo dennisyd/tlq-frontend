@@ -21,7 +21,7 @@
 }
 
 .logo-img {
-  height: 175px;
+  height: 201px;
   width: auto;
   transition: transform 0.3s ease;
 }
@@ -31,7 +31,7 @@
 }
 
 .footer-logo-img {
-  height: 188px;
+  height: 216px;
   width: auto;
   margin-bottom: 16px;
 }
