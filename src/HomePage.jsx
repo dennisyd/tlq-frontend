@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState, useRef } from "react";
 import "./App.css";
 import logo from "./assets/logo.png";
 import martineDennis from "./assets/martine-dennis.jpg";
+import dylanDennis from "./assets/dylan-dennis.jpg";
+import yancyDennis from "./assets/yancy-dennis.jpg";
 
 const fallbackSubjects = [
   {
@@ -37,14 +39,14 @@ const fallbackTutors = [
     name: "Dr. Yancy Dennis",
     specialty: "STEM and Test Prep",
     credentials: "Ph.D. Chemical Engineering and Artificial Intelligence Professor, 20 years experience",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&q=80"
+    avatar: yancyDennis
   },
   {
     id: "dylan-pierce",
     name: "Dylan Pierce",
     specialty: "Special Education & Chess",
     credentials: "B.S. Business, 5 years tutoring experience",
-    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&q=80"
+    avatar: dylanDennis
   }
 ];
 
