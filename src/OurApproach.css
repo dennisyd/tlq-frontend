@@ -10,7 +10,7 @@
 }
 
 .approach-hero {
-  background: linear-gradient(135deg, #0f4c81 0%, #1b6aa9 100%);
+  background: linear-gradient(135deg, #1a7a4f 0%, #27a86e 100%);
   color: #ffffff;
   padding: 100px 8% 80px;
   text-align: center;
@@ -53,7 +53,7 @@
 
 .why-it-works h2 {
   font-size: 2.5rem;
-  color: #0f4c81;
+  color: #1a7a4f;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -88,7 +88,7 @@
 
 .benefit-card h4 {
   font-size: 1.5rem;
-  color: #0f4c81;
+  color: #1a7a4f;
   margin: 0 0 15px;
 }
 
@@ -108,7 +108,7 @@
 
 .approach-details h2 {
   font-size: 2.5rem;
-  color: #0f4c81;
+  color: #1a7a4f;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -129,13 +129,13 @@
 
 .method-card:hover {
   transform: translateX(8px);
-  box-shadow: 0 10px 30px rgba(15, 76, 129, 0.12);
-  border-left-color: #0f4c81;
+  box-shadow: 0 10px 30px rgba(26, 122, 79, 0.12);
+  border-left-color: #1a7a4f;
 }
 
 .method-card h3 {
   font-size: 1.5rem;
-  color: #0f4c81;
+  color: #1a7a4f;
   margin: 0 0 15px;
 }
 
@@ -148,7 +148,7 @@
 
 .approach-cta {
   padding: 100px 8%;
-  background: linear-gradient(135deg, #0f4c81 0%, #1b6aa9 100%);
+  background: linear-gradient(135deg, #1a7a4f 0%, #27a86e 100%);
   color: #ffffff;
   text-align: center;
 }

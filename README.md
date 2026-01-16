@@ -1,4 +1,4 @@
-# The Learning Quarters of Owings Mills - Frontend
+# The Learning Quarters - Frontend
 
 Modern, responsive React frontend for The Learning Quarters tutoring platform.
 

@@ -55,7 +55,7 @@
   bottom: 0;
   width: 0;
   height: 2px;
-  background: #0f4c81;
+  background: #1a7a4f;
   transition: width 0.3s ease;
 }
 
@@ -76,20 +76,20 @@
 }
 
 .button-primary {
-  background: #0f4c81;
+  background: #1a7a4f;
   color: #ffffff;
-  box-shadow: 0 12px 24px rgba(15, 76, 129, 0.18);
+  box-shadow: 0 12px 24px rgba(26, 122, 79, 0.18);
 }
 
 .button-secondary {
   background: #ffffff;
-  color: #0f4c81;
+  color: #1a7a4f;
   border: 1px solid #d4e2f2;
 }
 
 .button:hover {
   transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 16px 32px rgba(15, 76, 129, 0.25);
+  box-shadow: 0 16px 32px rgba(26, 122, 79, 0.25);
 }
 }
 
@@ -254,8 +254,8 @@ section.visible {
 
 .feature-card:hover {
   transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 24px 48px rgba(15, 50, 90, 0.18);
-  border-color: #0f4c81;
+  box-shadow: 0 24px 48px rgba(26, 122, 79, 0.15);
+  border-color: #1a7a4f;
 }
 
 .feature-icon {
@@ -278,7 +278,7 @@ section.visible {
   position: absolute;
   inset: 12px;
   border-radius: 10px;
-  border: 3px solid #0f4c81;
+  border: 3px solid #1a7a4f;
 }
 
 .feature-icon.star::after {
@@ -345,7 +345,7 @@ section.visible {
   padding: 16px;
   font-weight: 600;
   text-align: center;
-  background: linear-gradient(90deg, #0f4c81, #2c8dbf);
+  background: linear-gradient(90deg, #1a7a4f, #27a86e);
   color: #ffffff;
 }
 
@@ -387,14 +387,14 @@ section.visible {
 .tutor-card:hover {
   transform: translateY(-6px) scale(1.02);
   box-shadow: 0 24px 48px rgba(20, 50, 80, 0.18);
-  border-color: #0f4c81;
+  border-color: #1a7a4f;
 }
 
 .tutor-avatar {
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  background: #0f4c81;
+  background: #1a7a4f;
   color: #ffffff;
   display: grid;
   place-items: center;
@@ -409,11 +409,11 @@ section.visible {
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  border: 2px solid #0f4c81;
+  border: 2px solid #1a7a4f;
 }
 
 .tutor-specialty {
-  color: #0f4c81;
+  color: #1a7a4f;
   font-weight: 600;
   margin: 4px 0;
 }
@@ -506,8 +506,8 @@ section.visible {
 .input-group input:focus,
 .input-group textarea:focus {
   outline: none;
-  border-color: #0f4c81;
-  box-shadow: 0 0 0 3px rgba(15, 76, 129, 0.1);
+  border-color: #1a7a4f;
+  box-shadow: 0 0 0 3px rgba(26, 122, 79, 0.1);
   transform: scale(1.01);
 }
 
@@ -523,7 +523,8 @@ section.visible {
 }
 
 .footer {
-  background: #ffffff;
+  background: #1a7a4f;
+  color: #ffffff;
   padding: 40px 8%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

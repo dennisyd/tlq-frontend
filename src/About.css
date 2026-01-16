@@ -10,7 +10,7 @@
 }
 
 .about-hero {
-  background: linear-gradient(135deg, #0f4c81 0%, #1b6aa9 100%);
+  background: linear-gradient(135deg, #1a7a4f 0%, #27a86e 100%);
   color: #ffffff;
   padding: 100px 8% 80px;
   text-align: center;
@@ -41,7 +41,7 @@
 
 .mission-content h2 {
   font-size: 2.5rem;
-  color: #0f4c81;
+  color: #1a7a4f;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -85,13 +85,13 @@
 
 .founder-bio h2 {
   font-size: 2rem;
-  color: #0f4c81;
+  color: #1a7a4f;
   margin-bottom: 10px;
 }
 
 .founder-bio h3 {
   font-size: 2.5rem;
-  color: #1b6aa9;
+  color: #27a86e;
   margin: 0 0 10px;
 }
 
@@ -141,7 +141,7 @@
 
 .who-we-serve h2 {
   font-size: 2.5rem;
-  color: #0f4c81;
+  color: #1a7a4f;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -172,12 +172,12 @@
 
 .service-item:hover {
   transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(15, 76, 129, 0.15);
-  border-color: #0f4c81;
+  box-shadow: 0 20px 40px rgba(26, 122, 79, 0.15);
+  border-color: #1a7a4f;
 }
 
 .service-item h4 {
-  color: #0f4c81;
+  color: #1a7a4f;
   font-size: 1.3rem;
   margin: 0 0 12px;
 }
@@ -196,7 +196,7 @@
 
 .graduate-exams h3 {
   font-size: 2rem;
-  color: #0f4c81;
+  color: #1a7a4f;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -217,7 +217,7 @@
 }
 
 .exam-card {
-  background: linear-gradient(135deg, #0f4c81, #1b6aa9);
+  background: linear-gradient(135deg, #1a7a4f, #27a86e);
   color: #ffffff;
   padding: 24px;
   border-radius: 12px;
@@ -227,7 +227,7 @@
 
 .exam-card:hover {
   transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 15px 35px rgba(15, 76, 129, 0.3);
+  box-shadow: 0 15px 35px rgba(26, 122, 79, 0.3);
 }
 
 .exam-card strong {
@@ -314,7 +314,7 @@
 
 .about-cta {
   padding: 100px 8%;
-  background: linear-gradient(135deg, #0f4c81 0%, #1b6aa9 100%);
+  background: linear-gradient(135deg, #1a7a4f 0%, #27a86e 100%);
   color: #ffffff;
   text-align: center;
 }
