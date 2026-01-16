@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState, useRef } from "react";
 import "./App.css";
-import logo from "./assets/logo.png";
+import logo from "./assets/logo-transparent.png";
 import martineDennis from "./assets/martine-dennis.jpg";
 import dylanDennis from "./assets/dylan-dennis.jpg";
 import yancyDennis from "./assets/yancy-dennis.jpg";
@@ -297,9 +297,9 @@ export default function HomePage() {
         >
           <div className="hero-content">
             <h1>
-              Empowering Youth to Reach
+              Empowering Youth
               <br />
-              Their Highest Potential
+              to Reach Their Highest Potential
             </h1>
             <p className="hero-subtitle hero-tagline">
               Building Minds, Shaping Futures.
@@ -589,7 +589,7 @@ export default function HomePage() {
         </div>
         <div className="footer-contact">
           <p>martine@thelearningquarters.com</p>
-          <p>(555) 281-4477</p>
+          <p>(443) 420-7198</p>
           <p>Mon - Sat: 8am - 8pm</p>
         </div>
       </footer>

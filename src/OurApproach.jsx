@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./OurApproach.css";
-import logo from "./assets/logo.png";
+import logo from "./assets/logo-transparent.png";
 
 export default function OurApproach() {
   const [visible, setVisible] = useState(false);
@@ -155,7 +155,7 @@ export default function OurApproach() {
         </div>
         <div className="footer-contact">
           <p>martine@thelearningquarters.com</p>
-          <p>(555) 281-4477</p>
+          <p>(443) 420-7198</p>
           <p>Mon - Sat: 8am - 8pm</p>
         </div>
       </footer>

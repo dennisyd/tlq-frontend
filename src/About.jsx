@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
 import martineDennis from "./assets/martine-dennis.jpg";
-import logo from "./assets/logo.png";
+import logo from "./assets/logo-transparent.png";
 
 export default function About() {
   const [visible, setVisible] = useState(false);
@@ -182,7 +182,7 @@ export default function About() {
         </div>
         <div className="footer-contact">
           <p>martine@thelearningquarters.com</p>
-          <p>(555) 281-4477</p>
+          <p>(443) 420-7198</p>
           <p>Mon - Sat: 8am - 8pm</p>
         </div>
       </footer>
