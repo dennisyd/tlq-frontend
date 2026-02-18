@@ -34,24 +34,38 @@ export default function SATRegistration() {
     setIsSubmitting(true);
     setStatusMessage("");
 
-    // Simulate API call - you can integrate with your backend
-    setTimeout(() => {
-      setStatusMessage(
-        "Thank you for registering! We'll send you confirmation details within 24 hours."
-      );
-      setFormState({
-        studentName: "",
-        parentName: "",
-        email: "",
-        phone: "",
-        grade: "",
-        currentScore: "",
-        targetScore: "",
-        testDate: "",
-        message: ""
+    try {
+      const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:4000";
+      const response = await fetch(`${API_BASE}/api/sat-registration`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formState)
       });
+
+      if (response.ok) {
+        setStatusMessage(
+          "Thank you for registering! We'll send you confirmation details and payment verification within 24 hours."
+        );
+        setFormState({
+          studentName: "",
+          parentName: "",
+          email: "",
+          phone: "",
+          grade: "",
+          currentScore: "",
+          targetScore: "",
+          testDate: "",
+          message: ""
+        });
+      } else {
+        setStatusMessage("There was an error submitting your registration. Please try again or contact us directly.");
+      }
+    } catch (error) {
+      console.error("Registration error:", error);
+      setStatusMessage("There was an error submitting your registration. Please try again or contact us directly.");
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   return (
@@ -129,7 +143,7 @@ export default function SATRegistration() {
                   <strong>Format:</strong> In-Person
                 </div>
                 <div className="detail-item">
-                  <strong>Location:</strong> To be provided upon registration
+                  <strong>Location:</strong> Meeting Room B @ Owings Mills Library
                 </div>
               </div>
 
@@ -152,7 +166,7 @@ export default function SATRegistration() {
                 </div>
                 <p className="payment-note">
                   After registering, please complete payment using one of the methods above. 
-                  You'll receive a confirmation email with the exact location details once payment is verified.
+                  You'll receive a confirmation email once payment is verified. Class will be held at Meeting Room B @ Owings Mills Library.
                 </p>
               </div>
             </div>
