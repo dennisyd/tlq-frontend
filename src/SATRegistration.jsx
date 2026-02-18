@@ -126,7 +126,10 @@ export default function SATRegistration() {
                   <strong>Duration:</strong> 3.5 Hours
                 </div>
                 <div className="detail-item">
-                  <strong>Format:</strong> Online via Zoom
+                  <strong>Format:</strong> In-Person
+                </div>
+                <div className="detail-item">
+                  <strong>Location:</strong> To be provided upon registration
                 </div>
               </div>
 
@@ -149,7 +152,7 @@ export default function SATRegistration() {
                 </div>
                 <p className="payment-note">
                   After registering, please complete payment using one of the methods above. 
-                  You'll receive a confirmation email with Zoom details once payment is verified.
+                  You'll receive a confirmation email with the exact location details once payment is verified.
                 </p>
               </div>
             </div>
