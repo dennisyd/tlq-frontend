@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./SATRegistration.css";
 import logo from "./assets/logo-transparent.jpg";
-import satImage from "./assets/sat-registration.png";
+import satImage from "./assets/satreg.png";
 
 export default function SATRegistration() {
   const [visible, setVisible] = useState(false);
