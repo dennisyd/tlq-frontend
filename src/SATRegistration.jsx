@@ -129,6 +129,29 @@ export default function SATRegistration() {
                   <strong>Format:</strong> Online via Zoom
                 </div>
               </div>
+
+              <div className="sat-pricing">
+                <h3>Investment</h3>
+                <p className="price-amount">$79</p>
+                <p className="price-description">Complete SAT Math Crash Course</p>
+              </div>
+
+              <div className="sat-payment-options">
+                <h3>Payment Options</h3>
+                <div className="payment-method">
+                  <strong>Zelle:</strong> dennisyd@gmail.com
+                </div>
+                <div className="payment-method">
+                  <strong>CashApp:</strong> $dennisyd
+                </div>
+                <div className="payment-method">
+                  <strong>PayPal:</strong> dennisyd@alum.mit.edu
+                </div>
+                <p className="payment-note">
+                  After registering, please complete payment using one of the methods above. 
+                  You'll receive a confirmation email with Zoom details once payment is verified.
+                </p>
+              </div>
             </div>
           </div>
 
