@@ -132,7 +132,7 @@ const heroStats = [
 
 export default function HomePage() {
   const apiBaseUrl =
-    import.meta.env.VITE_API_BASE_URL || "http://localhost:4000";
+    import.meta.env.VITE_API_BASE_URL || "https://tlq-backend.onrender.com";
 
   const [subjects, setSubjects] = useState(fallbackSubjects);
   const [tutors, setTutors] = useState(fallbackTutors);
@@ -275,6 +275,7 @@ export default function HomePage() {
           <a href="/">Home</a>
           <a href="/about">About Us</a>
           <a href="/our-approach">Our Approach</a>
+          <a href="/sat-registration">SAT Registration</a>
           <a href="/#tutors">Our Tutors</a>
           <a href="/#subjects">Subjects</a>
           <a href="/#testimonials">Testimonials</a>

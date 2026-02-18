@@ -1,0 +1,244 @@
+.sat-page {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.sat-page.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sat-hero {
+  background: linear-gradient(135deg, #1a2a5e 0%, #2d4a9a 100%);
+  color: #ffffff;
+  padding: 80px 8% 60px;
+  text-align: center;
+}
+
+.sat-hero-content h1 {
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  margin: 0 0 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.sat-subtitle {
+  font-size: 1.5rem;
+  color: #f4d03f;
+  font-weight: 600;
+  margin: 0;
+}
+
+.sat-details {
+  padding: 80px 8%;
+  background: #f7f9fc;
+}
+
+.sat-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+@media (max-width: 1024px) {
+  .sat-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.sat-info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sat-promo-image {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(29, 42, 90, 0.2);
+}
+
+.sat-highlights {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(15, 76, 129, 0.1);
+}
+
+.sat-highlights h2 {
+  font-size: 2rem;
+  color: #1a2a5e;
+  margin: 0 0 30px;
+}
+
+.sat-highlights h3 {
+  font-size: 1.5rem;
+  color: #1a2a5e;
+  margin: 30px 0 15px;
+}
+
+.sat-features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sat-features-list li {
+  padding: 15px 0;
+  border-bottom: 1px solid #edf2f7;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.sat-features-list li:last-child {
+  border-bottom: none;
+}
+
+.check-icon {
+  color: #1a7a4f;
+  font-size: 1.5rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.sat-instructors {
+  background: #f7f9fc;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 25px;
+}
+
+.sat-instructors p {
+  margin: 5px 0;
+  color: #2e3a4d;
+}
+
+.sat-event-details {
+  background: #1a2a5e;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 25px;
+}
+
+.sat-event-details h3 {
+  color: #f4d03f;
+  margin-top: 0;
+}
+
+.detail-item {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.detail-item:last-child {
+  border-bottom: none;
+}
+
+.sat-form-column {
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+}
+
+.sat-form-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(29, 42, 90, 0.15);
+  border: 2px solid #1a7a4f;
+}
+
+.sat-form-card h2 {
+  font-size: 2.2rem;
+  color: #1a2a5e;
+  margin: 0 0 10px;
+}
+
+.form-subtitle {
+  color: #5a6b82;
+  margin: 0 0 30px;
+  font-size: 1.05rem;
+}
+
+.sat-registration-form {
+  display: grid;
+  gap: 20px;
+}
+
+.sat-registration-form .input-group {
+  display: grid;
+  gap: 8px;
+}
+
+.sat-registration-form label {
+  font-weight: 600;
+  color: #2e3a4d;
+  font-size: 0.95rem;
+}
+
+.sat-registration-form input,
+.sat-registration-form select,
+.sat-registration-form textarea {
+  border-radius: 10px;
+  border: 2px solid #d6e4f0;
+  padding: 12px 14px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.sat-registration-form input:focus,
+.sat-registration-form select:focus,
+.sat-registration-form textarea:focus {
+  outline: none;
+  border-color: #1a7a4f;
+  box-shadow: 0 0 0 3px rgba(26, 122, 79, 0.1);
+  transform: scale(1.01);
+}
+
+.sat-registration-form select {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.form-status {
+  margin: 10px 0 0;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.form-status.success {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+@media (max-width: 1024px) {
+  .sat-form-column {
+    position: relative;
+    top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .sat-hero {
+    padding: 60px 6% 50px;
+  }
+
+  .sat-details {
+    padding: 60px 6%;
+  }
+
+  .sat-highlights,
+  .sat-form-card {
+    padding: 30px 20px;
+  }
+}

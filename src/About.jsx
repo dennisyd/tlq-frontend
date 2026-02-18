@@ -23,6 +23,7 @@ export default function About() {
           <Link to="/">Home</Link>
           <Link to="/about">About Us</Link>
           <Link to="/our-approach">Our Approach</Link>
+          <Link to="/sat-registration">SAT Registration</Link>
           <a href="/#tutors">Our Tutors</a>
           <a href="/#subjects">Subjects</a>
           <a href="/#testimonials">Testimonials</a>
