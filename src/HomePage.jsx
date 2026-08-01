@@ -31,14 +31,14 @@ const fallbackTutors = [
     id: "martine-dennis",
     name: "Martine Dennis",
     specialty: "Mathematics and Test Prep",
-    credentials: "M.S. Applied Mathematics, 20 years experience",
+    credentials: "M.S. Applied Mathematics, 25+ years experience",
     avatar: martineDennis
   },
   {
     id: "yancy-dennis",
-    name: "Dr. Yancy Dennis",
-    specialty: "STEM and Test Prep",
-    credentials: "Ph.D. Chemical Engineering and Artificial Intelligence Professor, 20 years experience",
+    name: "Yancy Dennis",
+    specialty: "Math, Programming and Chemistry",
+    credentials: "PhD Chemical Engineering, 30+ years experience",
     avatar: yancyDennis
   },
   {
